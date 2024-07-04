@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\controllers\\calculosalariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\controllers\\calculosalariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\wwwroot\\js\\meuapp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\wwwroot\\js\\meuapp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\models\\salariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\models\\salariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\models\\segurodesempregomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\models\\segurodesempregomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|c:\\users\\rhazi\\source\\repos\\projetocalculadorasegurodesemprego\\projetocalculadorasegurodesemprego\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9229C5F8-A5A2-4FE3-B7FB-BB7FF7AA53AF}|ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj|solutionrelative:projetocalculadorasegurodesemprego\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "meuApp.js",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\wwwroot\\js\\meuApp.js",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\wwwroot\\js\\meuApp.js",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\wwwroot\\js\\meuApp.js",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\wwwroot\\js\\meuApp.js",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-03T18:51:03.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeguroDesempregoModel.cs",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Models\\SeguroDesempregoModel.cs",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Models\\SeguroDesempregoModel.cs",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Models\\SeguroDesempregoModel.cs",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Models\\SeguroDesempregoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:48:22.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Models\\SalarioRequest.cs",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Models\\SalarioRequest.cs",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Models\\SalarioRequest.cs",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Models\\SalarioRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:24:48.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculoSalarioController.cs",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\CalculoSalarioController.cs",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\CalculoSalarioController.cs",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\CalculoSalarioController.cs",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\CalculoSalarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:21:13.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:00:35.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Controllers\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:53:49.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T22:54:10.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoCalculadoraSeguroDesemprego\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjetoCalculadoraSeguroDesemprego\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T22:49:23.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

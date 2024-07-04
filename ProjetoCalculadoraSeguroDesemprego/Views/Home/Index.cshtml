@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Calculadora Seguro Desemprego";
+}
+<div class="row">
+
+    <div class="container">
+
+
+        <h1>Sobre Nós</h1>
+        <div class="section">
+            <p>Bem-vindo ao nosso site, a ferramenta definitiva para calcular o valor do seu seguro-desemprego. Sabemos como pode ser estressante perder um emprego, e nossa missão é tornar esse momento um pouco mais fácil para você.</p>
+        </div>
+        <h3>O que Fazemos</h3>
+        <div class="section">
+            <p>Nossa calculadora de seguro-desemprego foi desenvolvida para ajudá-lo a entender rapidamente quanto você poderá receber de benefício. Basta inserir algumas informações básicas sobre sua situação de emprego anterior e atual, e nossa ferramenta fará todos os cálculos necessários para fornecer uma estimativa precisa do valor que você tem direito a receber.</p>
+        </div>
+        <h3>Como Funciona</h3>
+        <div class="section">
+            <ol>
+                <li><strong>Insira seus dados</strong>: Forneça informações como tempo de trabalho, salário médio e motivo da demissão.</li>
+                <li><strong>Calcule</strong>: Com um simples clique, nossa calculadora processará seus dados conforme as regras do seguro-desemprego vigente.</li>
+                <li><strong>Receba seu resultado</strong>: Obtenha uma estimativa clara e detalhada do valor do benefício a que você tem direito.</li>
+            </ol>
+        </div>
+        <h3>Por que Usar Nossa Calculadora?</h3>
+        <div class="section">
+            <ul>
+                <li><strong>Facilidade de uso</strong>: Interface intuitiva que qualquer pessoa pode utilizar, sem necessidade de conhecimentos técnicos.</li>
+                <li><strong>Precisão</strong>: Algoritmos atualizados conforme a legislação vigente para garantir resultados precisos.</li>
+                <li><strong>Gratuito</strong>: Nosso serviço é totalmente gratuito e acessível para todos.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <p>Nosso objetivo é fornecer um serviço rápido, confiável e acessível para todos que precisam calcular o valor do seguro-desemprego. Experimente agora e veja como é simples obter a informação que você precisa!</p>
+        </div>
+    </div>
+
+
+    <div class="container" asp-action="Calcular" method="post">
+        <h2>Calculadora de Seguro-Desemprego</h2>
+        <form id="calculoForm" method="post">
+            <div class="section">
+                <label for="ultimoSalario">Valor do último salário:</label>
+                <input type="text" id="ultimoSalario" name="ultimoSalario" required><br><br>
+
+                <label for="penultimoSalario">Valor do penúltimo salário:</label>
+                <input type="text" id="penultimoSalario" name="penultimoSalario" required><br><br>
+
+                <label for="antepenultimoSalario">Valor do antepenúltimo salário:</label>
+                <input type="text" id="antepenultimoSalario" name="antepenultimoSalario" required><br><br>
+
+                <label for="mesesTrabalhados">Quantidade de meses trabalhados:</label>
+                <input type="text" id="mesesTrabalhados" name="mesesTrabalhados" required><br><br>
+
+                <label for="vezesSolicitado">Quantas vezes solicitou este benefício:</label>
+                <select id="vezesSolicitado" name="vezesSolicitado" required>
+                    <option value="1">Uma vez</option>
+                    <option value="2">Duas vezes</option>
+                    <option value="3">Três vezes</option>
+                </select><br><br>
+
+                <button type="button" class="btn btn-primary" onclick="calcularSeguroDesemprego()">
+                    Calcular
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+
+<div class="section result" id="resultado">
+
+    <!-- Resultado será exibido aqui -->
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Resultado</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Resultado será mostrado aqui -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/meuApp.js"></script>
