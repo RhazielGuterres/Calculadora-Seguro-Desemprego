@@ -36,11 +36,65 @@ namespace ProjetoCalculadoraSeguroDesemprego.Controllers
                 parcela = 2313.74;
             }
 
+            int parcelas = 0;
+
+            
+            switch (request.VezesSolicitado)
+            {
+                case 1:
+                    if (request.MesesTrabalhados >= 12 && request.MesesTrabalhados <= 23)
+                    {
+                        parcelas = 4;
+                    }
+                    else if (request.MesesTrabalhados >= 24)
+                    {
+                        parcelas = 5;
+                    }
+                    break;
+
+                case 2:
+                    if (request.MesesTrabalhados >= 9 && request.MesesTrabalhados <= 11)
+                    {
+                        parcelas = 3;
+                    }
+                    else if (request.MesesTrabalhados >= 12 && request.MesesTrabalhados <= 23)
+                    {
+                        parcelas = 4;
+                    }
+                    else if (request.MesesTrabalhados >= 24)
+                    {
+                        parcelas = 5;
+                    }
+                    break;
+
+                case 3:
+                    if (request.MesesTrabalhados >= 6 && request.MesesTrabalhados <= 11)
+                    {
+                        parcelas = 3;
+                    }
+                    else if (request.MesesTrabalhados >= 12 && request.MesesTrabalhados <= 23)
+                    {
+                        parcelas = 4;
+                    }
+                    else if (request.MesesTrabalhados >= 24)
+                    {
+                        parcelas = 5;
+                    }
+                    break;
+
+                default:
+                    return BadRequest("Número de vezes solicitado inválido.");
+            }
+
             return Ok(new SeguroDesempregoResponse
             {
                 MediaSalarial = mediaSalarial,
-                Parcela = parcela
+                Parcela = parcela,
+                Parcelas = parcelas
             });
         }
+        
+
     }
+
 }

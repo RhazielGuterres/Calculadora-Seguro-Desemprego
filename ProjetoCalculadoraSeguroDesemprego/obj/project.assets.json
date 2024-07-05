@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj",
+      "projectUniqueName": "C:\\Users\\rhazi\\OneDrive\\Documentos\\git\\Calculadora-Seguro-Desemprego\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj",
       "projectName": "ProjetoCalculadoraSeguroDesemprego",
-      "projectPath": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj",
+      "projectPath": "C:\\Users\\rhazi\\OneDrive\\Documentos\\git\\Calculadora-Seguro-Desemprego\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego.csproj",
       "packagesPath": "C:\\Users\\rhazi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhazi\\source\\repos\\ProjetoCalculadoraSeguroDesemprego\\ProjetoCalculadoraSeguroDesemprego\\obj\\",
+      "outputPath": "C:\\Users\\rhazi\\OneDrive\\Documentos\\git\\Calculadora-Seguro-Desemprego\\ProjetoCalculadoraSeguroDesemprego\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

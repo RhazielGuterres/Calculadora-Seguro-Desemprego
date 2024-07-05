@@ -1,6 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Calculadora Seguro Desemprego";
 }
+
+<link rel="stylesheet" href="/css/modalSeguroDesemprego.css">
+
 <div class="row">
 
     <div class="container">
@@ -50,7 +53,7 @@
                 <input type="text" id="antepenultimoSalario" name="antepenultimoSalario" required><br><br>
 
                 <label for="mesesTrabalhados">Quantidade de meses trabalhados:</label>
-                <input type="text" id="mesesTrabalhados" name="mesesTrabalhados" required><br><br>
+                <input type="number" id="mesesTrabalhados" name="mesesTrabalhados" required><br><br>
 
                 <label for="vezesSolicitado">Quantas vezes solicitou este benefício:</label>
                 <select id="vezesSolicitado" name="vezesSolicitado" required>
@@ -77,12 +80,12 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Resultado</h5>
+        <div class="modal-content modal-content-custom">
+            <div class="modal-header modal-header-custom">
+                <h5 class="modal-title modal-title-custom" id="exampleModalLabel">Resultado</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" id="modalBody">
+            <div class="modal-body modal-body-custom" id="modalBody">
                 <!-- Resultado será mostrado aqui -->
             </div>
             <div class="modal-footer">
@@ -92,4 +95,5 @@
     </div>
 </div>
 
-<script src="~/js/meuApp.js"></script>
+
+
