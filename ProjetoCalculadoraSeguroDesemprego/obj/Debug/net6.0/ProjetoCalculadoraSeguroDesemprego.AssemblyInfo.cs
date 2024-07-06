@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoCalculadoraSeguroDesemprego")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a1cd7d3f806be67e8d46fdd6a795686874cd47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+616f3845c0b1056c16339a4eb94a312565a2460d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoCalculadoraSeguroDesemprego")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoCalculadoraSeguroDesemprego")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
