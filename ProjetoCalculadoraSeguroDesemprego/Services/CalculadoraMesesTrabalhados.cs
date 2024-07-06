@@ -1,6 +1,8 @@
-﻿namespace ProjetoCalculadoraSeguroDesemprego.Services
+﻿using ProjetoCalculadoraSeguroDesemprego.Interfaces;
+
+namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
-    public class CalculoMesesTrabalhados
+    public class CalculoMesesTrabalhados : ICalculoMesesTrabalhados
     {
         public int CalcularParcelas(int vezesSolicitado, int mesesTrabalhados)
         {

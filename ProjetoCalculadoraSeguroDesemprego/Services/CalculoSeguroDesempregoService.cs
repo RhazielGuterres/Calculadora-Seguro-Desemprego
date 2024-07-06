@@ -1,16 +1,17 @@
-﻿using ProjetoCalculadoraSeguroDesemprego.Models;
+﻿using ProjetoCalculadoraSeguroDesemprego.Interfaces;
+using ProjetoCalculadoraSeguroDesemprego.Models;
 
 namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
     public class CalculoSeguroDesempregoService
     {
-        private readonly CalculoSeguroDesemprego _calculoSeguroDesemprego;
-        private readonly CalculoMesesTrabalhados _calculoMesesTrabalhados;
+        private readonly ICalculoSeguroDesemprego _calculoSeguroDesemprego;
+        private readonly ICalculoMesesTrabalhados _calculoMesesTrabalhados;
 
-        public CalculoSeguroDesempregoService()
+        public CalculoSeguroDesempregoService(ICalculoSeguroDesemprego calculoSeguroDesemprego, ICalculoMesesTrabalhados calculoMesesTrabalhados)
         {
-            _calculoSeguroDesemprego = new CalculoSeguroDesemprego();
-            _calculoMesesTrabalhados = new CalculoMesesTrabalhados();
+            _calculoSeguroDesemprego = calculoSeguroDesemprego;
+            _calculoMesesTrabalhados = calculoMesesTrabalhados;
         }
 
         public SeguroDesempregoResponse Calcular(SalarioRequest request)
@@ -30,4 +31,5 @@ namespace ProjetoCalculadoraSeguroDesemprego.Services
             };
         }
     }
+
 }

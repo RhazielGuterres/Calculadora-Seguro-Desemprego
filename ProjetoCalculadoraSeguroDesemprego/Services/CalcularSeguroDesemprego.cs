@@ -1,6 +1,8 @@
-﻿namespace ProjetoCalculadoraSeguroDesemprego.Services
+﻿using ProjetoCalculadoraSeguroDesemprego.Interfaces;
+
+namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
-    public class CalculoSeguroDesemprego
+    public class CalculoSeguroDesemprego : ICalculoSeguroDesemprego
     {
         public double CalcularMediaSalarial(double ultimoSalario, double penultimoSalario, double antepenultimoSalario)
         {
@@ -29,4 +31,5 @@
             return parcela;
         }
     }
+
 }

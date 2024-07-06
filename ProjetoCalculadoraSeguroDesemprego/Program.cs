@@ -1,5 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ProjetoCalculadoraSeguroDesemprego.Interfaces;
 using ProjetoCalculadoraSeguroDesemprego.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Adicionar injeção de dependência
-builder.Services.AddTransient<CalculoSeguroDesemprego>();
-builder.Services.AddTransient<CalculoMesesTrabalhados>();
+builder.Services.AddTransient<ICalculoSeguroDesemprego, CalculoSeguroDesemprego>();
+builder.Services.AddTransient<ICalculoMesesTrabalhados, CalculoMesesTrabalhados>();
 builder.Services.AddTransient<CalculoSeguroDesempregoService>();
 
 var app = builder.Build();
@@ -33,4 +34,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
