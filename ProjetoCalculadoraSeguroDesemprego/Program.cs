@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Adicionar injeção de dependência
-builder.Services.AddTransient<ICalculoSeguroDesemprego, CalculoSeguroDesemprego>();
-builder.Services.AddTransient<ICalculoMesesTrabalhados, CalculoMesesTrabalhados>();
-builder.Services.AddTransient<CalculoSeguroDesempregoService>();
+builder.Services.AddTransient<ICalculadoraSeguroDesempregoService, CalculoraSeguroDesempregoService>();
+builder.Services.AddTransient<ICalculadoraMesesTrabalhadosService, CalculadoraMesesTrabalhadosService>();
+builder.Services.AddTransient<ICalculoSeguroDesempregoService, CalculoSeguroDesempregoService>();
 
 var app = builder.Build();
 

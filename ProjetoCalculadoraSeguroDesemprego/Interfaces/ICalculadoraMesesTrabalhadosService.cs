@@ -1,6 +1,6 @@
 ﻿namespace ProjetoCalculadoraSeguroDesemprego.Interfaces
 {
-    public interface ICalculoMesesTrabalhados
+    public interface ICalculadoraMesesTrabalhadosService
     {
         int CalcularParcelas(int vezesSolicitado, int mesesTrabalhados);
     }

@@ -2,7 +2,7 @@
 
 namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
-    public class CalculoSeguroDesemprego : ICalculoSeguroDesemprego
+    public class CalculoraSeguroDesempregoService : ICalculadoraSeguroDesempregoService
     {
         public double CalcularMediaSalarial(double ultimoSalario, double penultimoSalario, double antepenultimoSalario)
         {

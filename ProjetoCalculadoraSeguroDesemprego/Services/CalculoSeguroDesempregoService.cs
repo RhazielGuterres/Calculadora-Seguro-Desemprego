@@ -3,12 +3,12 @@ using ProjetoCalculadoraSeguroDesemprego.Models;
 
 namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
-    public class CalculoSeguroDesempregoService
+    public class CalculoSeguroDesempregoService: ICalculoSeguroDesempregoService
     {
-        private readonly ICalculoSeguroDesemprego _calculoSeguroDesemprego;
-        private readonly ICalculoMesesTrabalhados _calculoMesesTrabalhados;
+        private readonly ICalculadoraSeguroDesempregoService _calculoSeguroDesemprego;
+        private readonly ICalculadoraMesesTrabalhadosService _calculoMesesTrabalhados;
 
-        public CalculoSeguroDesempregoService(ICalculoSeguroDesemprego calculoSeguroDesemprego, ICalculoMesesTrabalhados calculoMesesTrabalhados)
+        public CalculoSeguroDesempregoService(ICalculadoraSeguroDesempregoService calculoSeguroDesemprego, ICalculadoraMesesTrabalhadosService calculoMesesTrabalhados)
         {
             _calculoSeguroDesemprego = calculoSeguroDesemprego;
             _calculoMesesTrabalhados = calculoMesesTrabalhados;

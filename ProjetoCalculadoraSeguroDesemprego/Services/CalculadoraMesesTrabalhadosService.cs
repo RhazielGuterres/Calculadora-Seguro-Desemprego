@@ -2,7 +2,7 @@
 
 namespace ProjetoCalculadoraSeguroDesemprego.Services
 {
-    public class CalculoMesesTrabalhados : ICalculoMesesTrabalhados
+    public class CalculadoraMesesTrabalhadosService : ICalculadoraMesesTrabalhadosService
     {
         public int CalcularParcelas(int vezesSolicitado, int mesesTrabalhados)
         {

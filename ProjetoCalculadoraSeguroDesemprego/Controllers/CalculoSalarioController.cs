@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProjetoCalculadoraSeguroDesemprego.Interfaces;
 using ProjetoCalculadoraSeguroDesemprego.Models;
 using ProjetoCalculadoraSeguroDesemprego.Services;
 
@@ -9,9 +10,9 @@ namespace ProjetoCalculadoraSeguroDesemprego.Controllers
     [ApiController]
     public class CalculoSalarioController : ControllerBase
     {
-        private readonly CalculoSeguroDesempregoService _calculoSeguroDesempregoService;
+        private readonly ICalculoSeguroDesempregoService _calculoSeguroDesempregoService;
 
-        public CalculoSalarioController(CalculoSeguroDesempregoService calculoSeguroDesempregoService)
+        public CalculoSalarioController(ICalculoSeguroDesempregoService calculoSeguroDesempregoService)
         {
             _calculoSeguroDesempregoService = calculoSeguroDesempregoService;
         }
